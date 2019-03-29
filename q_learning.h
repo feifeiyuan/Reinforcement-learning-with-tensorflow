@@ -13,12 +13,12 @@ using namespace std;
 
 #define SCHDULE_SIZE 4
 
-static const char *schedlable[] = {"0", "-20", "-40", "-60", "-80"};
+static const char *schedlable[] = {"0", "-10", "-20", "-30", "-40"};
 static const char *schedtune[SCHDULE_SIZE] = {
-	"/dev/stune/schedtune.boost",
-    "/dev/stune/top-app/schedtune.boost",
-    "/dev/stune/foreground/schedtune.boost",
-    "/dev/stune/background/schedtune.boost"
+	"/dev/1",
+    "/dev/2",
+    "/dev/3",
+    "/dev/4"
     };
 
 /*
